@@ -1,7 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
-	outline: solid red 1px;
+/*	outline: solid red 1px;*/
 }
 #wrapper{
 	width: 1000px;
@@ -69,6 +69,7 @@
 #content{
   	background: linear-gradient(to right, black, grey, black);
 	margin-top: 20px;
+	padding-bottom: 10px;
 }
 	#mainpic{
 		border: solid white 5px;
@@ -117,7 +118,7 @@
 		font-family: sans-serif;
 		font-size: 11px;
 		color: #F3D67C;
-		margin-bottom: 10px;
+		margin-bottom: 0px;
 		vertical-align: top;
 		margin-left: 15px;
 	}
@@ -126,11 +127,29 @@
 		text-align: center;
 	}
 	.bottomboxes{
+		margin: 10px;
+		width: 222px;
 		display: inline-block;
-		padding: 10px; 
-		margin: 15px;
+		background-color: white;
+		height: 280px;
+		vertical-align: top;
 	}
 		.boxtitle{
-			display: inline-block;
+			background: linear-gradient(#EFC441 40%, #EBB616 50%, #EFC441);
+			font-family: sans-serif;
+			text-align: left;
+			padding: 7px;
+			font-size: 12px;
+			font-weight: bolder;
 		}
-
+		.bottomboxes img{
+			display: inline-block;
+			padding-bottom: 10px;
+		}
+		.bottomboxes p{
+			text-align: left;
+			font-family: sans-serif;
+			font-size: 11px;
+			width: 190px;
+			margin: 10px;
+		}
