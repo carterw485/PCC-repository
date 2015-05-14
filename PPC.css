@@ -127,15 +127,20 @@
 		text-align: center;
 	}
 	.bottomboxes{
-		margin: 10px;
+		margin: 5px;
 		width: 222px;
 		display: inline-block;
 		background-color: white;
-		height: 280px;
+		height: 270px;
 		vertical-align: top;
+		border: solid #313131 2px;
 	}
+		#automotive{
+			margin-left: 35px;
+		}
 		.boxtitle{
 			background: linear-gradient(#EFC441 40%, #EBB616 50%, #EFC441);
+			border-bottom: solid #313131 2px;
 			font-family: sans-serif;
 			text-align: left;
 			padding: 7px;
@@ -152,4 +157,13 @@
 			font-size: 11px;
 			width: 190px;
 			margin: 10px;
+			height: 70px;
 		}
+		.bottomboxes a{
+			display: inline-block;
+			margin-left: 100px;
+		}
+			.bottomboxes a img{
+			display: inline-block;
+			padding: 0px;
+			}
