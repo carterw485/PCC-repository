@@ -1,40 +1,37 @@
 *{
 	margin: 0px;
 	padding: 0px;
-	/*outline: solid red 1px;*/
+	outline: solid red 1px;
 }
 #wrapper{
 	width: 1000px;
 	margin: auto;
+	background-color: #E2ECED;
 }
 #header{
 }
 	#headertop{
-		background: -webkit-linear-gradient(#D3CFDC, white, white); /* For Safari 5.1 to 6.0 */
-  		background: -o-linear-gradient(#D3CFDC, white, white); /* For Opera 11.1 to 12.0 */
-  		background: -moz-linear-gradient(#D3CFDC, white, white); /* For Firefox 3.6 to 15 */
- 		background: linear-gradient(#E6E6E8, white); /* Standard syntax */
+ 		background: linear-gradient(#E6E7E8, white);
 	}
 		#headertop img{
 			display: inline-block;
 			margin-left: 30px;
+			border-radius: 
 		}
 		#headertop p{
 			display: inline-block;
 			margin-left: 220px;
 			font-size: 20px;
-			margin-top: 30px;
+			margin-top: 32px;
 			vertical-align: top;
 			font-weight: bold;
 			font-family: sans-serif;
+			color: #313131;
 
 		}
 	#headerbottom{
-		background: -webkit-linear-gradient(#E2ECED, #C4D6D9); /* For Safari 5.1 to 6.0 */
-  		background: -o-linear-gradient(#E2ECED, #C4D6D9); /* For Opera 11.1 to 12.0 */
-  		background: -moz-linear-gradient(#E2ECED, #C4D6D9); /* For Firefox 3.6 to 15 */
- 		background: linear-gradient(#E2ECED, #C4D6D9); /* Standard syntax */
- 		border-top: solid grey 2px;
+ 		background: linear-gradient(#E2ECED 30%, #C9D2D6 40%, #E2ECED);
+ 		border-top: solid #AFAFAF 2px;
 	}
 		#headerbottom ul{
 			text-align: center;
@@ -42,19 +39,97 @@
 		}
 			#headerbottom ul li{
 				display: inline-block;
-				padding: 10px 17px;
+				padding: 10px 22px;
 				margin: 0px;
-				border-right: solid grey 1px;
-				border-left: solid silver 1px;
+				border-right: solid #AFAFAF 1px;
+				border-left: solid #EBEBEB 1px;
 				margin: 0px;
 			}
 				#headerbottom ul li a{
-					font-size: 13px;
+					font-size: 12px;
 					text-decoration: none;
 					color: #4F4F61;
 					font-weight: bold;
 					font-family: sans-serif;
 				}
 					#home{
-						border-left: solid grey 1px !important;
+						border-left: solid #EBEBEB 1px !important;
 					}
+					#homeouter{
+						border-left: solid #AFAFAF 1px !important;
+						display: inline-block;
+					}
+					#market{
+						border-right: solid #AFAFAF 1px !important;
+					}
+					#marketouter{
+						border-right: solid #EBEBEB 1px !important;
+						display: inline-block;
+					}
+#content{
+  	background: linear-gradient(to right, black, grey, black);
+	margin-top: 20px;
+}
+	#mainpic{
+		border: solid white 5px;
+		margin-left: 35px;
+		margin-top: 20px;
+		margin-bottom: 5px;
+	}
+	#info{
+		background-color: rgba(255,255,255,0.2);
+  		display: inline-block;
+  		width: 550px;
+  		font-family: sans-serif;
+  		margin: 20px 0px 0px 10px;
+  		vertical-align: top;
+  		height: 265px;
+	}
+		#info h4{
+ 			background: linear-gradient(#EFC441 40%, #EBB616 50%, #EFC441);
+			padding: 10px;
+			font-size: 14px;
+			font-weight: bold;
+		}
+		#info h3{
+			color: white;
+			margin: 10px 20px;
+			font-size: 15px;
+		}
+		#info p{
+			color: white;
+			margin: 10px 20px;
+			font-size: 12px;
+		}
+			.boldtext{
+				font-weight: bold;
+			}
+	#minilogo{
+		display: inline-block;
+		height: 12px;
+		width: 40px;
+		border-radius: 2px;
+		margin-left: 45px;
+		vertical-align: top;
+	}
+	#miniline{
+		display: inline-block;
+		font-family: sans-serif;
+		font-size: 11px;
+		color: #F3D67C;
+		margin-bottom: 10px;
+		vertical-align: top;
+		margin-left: 15px;
+	}
+	#bottom{
+		display: inline-block;
+		text-align: center;
+	}
+	.bottomboxes{
+		display: inline-block;
+		padding: 10px; 
+		margin: 15px;
+	}
+		.boxtitle{
+			display: inline-block;
+		}
